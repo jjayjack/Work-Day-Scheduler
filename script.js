@@ -78,11 +78,11 @@ var d = new Date().getHours();
 for (var i = 9; i < 18; i++){
     if (d === i){
         $("#input"+i).css("background-color", "#ff6961");
-        $("#input"+i).css("color", "white");
+
 }   else if (d < i) {
          $("#input"+i).css("background-color", "#77dd77");
-         $("#input"+i).css("color", "white");
+
  }   else {
          $("#input"+i).css("background-color", "#d3d3d3");
-         $("#input"+i).css("color", "white");
+
 }};
