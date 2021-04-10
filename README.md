@@ -1,5 +1,10 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
+\\         Updated code to reflect time variable affecting color of text box inputs         //
+![image](https://user-images.githubusercontent.com/79474830/114254149-5c137580-9973-11eb-816c-c8eae92e31ca.png)
+
+
+
 \\         Updated code to reflect localStorage saving         //
 ![image](https://user-images.githubusercontent.com/79474830/114252987-c0cbd180-996d-11eb-9317-eaa5942205be.png)
 ![image](https://user-images.githubusercontent.com/79474830/114252993-ca553980-996d-11eb-9360-59b3612f9be5.png)
