@@ -1,5 +1,9 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
+\\        Updated code to connect to CSS      //
+![image](https://user-images.githubusercontent.com/79474830/114257457-c208f880-9985-11eb-93d3-6a979aa833c5.png)
+
+
 \\         Updated code to reflect time variable affecting color of text box inputs         //
 ![image](https://user-images.githubusercontent.com/79474830/114254149-5c137580-9973-11eb-816c-c8eae92e31ca.png)
 
