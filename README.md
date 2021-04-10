@@ -1,5 +1,8 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
+\\       Deployed URL       //
+https://jjayjack.github.io/Work-Day-Scheduler/
+
 \\        Updated code to change CSS and JS      //
 ![image](https://user-images.githubusercontent.com/79474830/114257725-8f5fff80-9987-11eb-81fd-7b059f981dab.png)
 ![image](https://user-images.githubusercontent.com/79474830/114257731-98e96780-9987-11eb-9d86-b266694ab375.png)
