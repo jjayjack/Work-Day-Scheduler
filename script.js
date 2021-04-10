@@ -1,14 +1,15 @@
 var today = moment();
 $("#currentDay").text(today.format("[Today is] dddd"));
-var nineAM = $("#nineAM");
-var tenAM = $("#tenAM");
-var elevenAM = $("#elevenAM");
-var twelvePM = $("#twelvePM");
-var onePM = $("#onePM");
-var twoPM = $("#twoPM");
-var threePM = $("#threePM");
-var fourPM = $("#fourPM");
-var fivePM = $("#fivePM");
+var nineAM = $("#input9");
+var tenAM = $("#input10");
+var elevenAM = $("#input11");
+var twelvePM = $("#input12");
+var onePM = $("#input13");
+var twoPM = $("#input14");
+var threePM = $("#input15");
+var fourPM = $("#input16");
+var fivePM = $("#input17");
+//var saves
 var nineAMsave = $("#nineAMsave");
 var tenAMsave = $("#tenAMsave");
 var elevenAMsave = $("#elevenAMsave");
@@ -18,8 +19,7 @@ var twoPMsave = $("#twoPMsave");
 var threePMsave = $("#threePMsave");
 var fourPMsave = $("#fourPMsave");
 var fivePMsave = $("#fivePMsave");
-
-
+//var for empty objects
 var input = {
     nineAM : "",
     tenAM :"",
@@ -30,9 +30,7 @@ var input = {
     threePM : "",
     fourPM : "",
     fivePM : ""
-
 };
-
 
 nineAMsave.on("click", save);
 tenAMsave.on("click", save);
@@ -73,8 +71,17 @@ threePM.val(input.threePM);
 fourPM.val(input.fourPM);
 fivePM.val(input.fivePM);
 
+//setting up color parameters
 
+var d = new Date().getHours();
+console.log(d);
 
-
-    // if (key) {
-    //     localStorage.setItem(key, )
+for (var i = 9; i < 18; i++){
+    if (d === i){
+        $("#input"+i).css("background-color", "red");
+        console.log("#input"+i);
+}   else if (d < i) {
+         $("#input"+i).css("background-color", "green");
+ }   else {
+         $("#input"+i).css("background-color", "gray");
+}};
