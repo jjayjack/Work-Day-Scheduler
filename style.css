@@ -22,6 +22,9 @@ textarea {
   border-bottom: 10px solid black;
   padding-top: 10%;
 }
+.container{
+  margin: 10px auto;
+}
 
 .description {
   white-space: pre-wrap;
@@ -42,6 +45,9 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  width: 80px;
+  justify-content: center;
+
 }
 
 .past {
@@ -60,11 +66,13 @@ textarea {
 }
 
 .saveBtn {
+  font-size: 25px;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  width: 80px;
 }
 
 .saveBtn i:hover {

@@ -1,5 +1,5 @@
 var today = moment();
-$("#currentDay").text(today.format("[Today is] dddd"));
+$("#currentDay").text(today.format("[Today is] dddd, MMMM Do YYYY"));
 var nineAM = $("#input9");
 var tenAM = $("#input10");
 var elevenAM = $("#input11");
