@@ -1,5 +1,11 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
+\\        Updated code to change CSS and JS      //
+![image](https://user-images.githubusercontent.com/79474830/114257725-8f5fff80-9987-11eb-81fd-7b059f981dab.png)
+![image](https://user-images.githubusercontent.com/79474830/114257731-98e96780-9987-11eb-9d86-b266694ab375.png)
+
+
+
 \\        Updated code to connect to CSS      //
 ![image](https://user-images.githubusercontent.com/79474830/114257457-c208f880-9985-11eb-93d3-6a979aa833c5.png)
 
