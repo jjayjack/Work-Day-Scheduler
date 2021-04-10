@@ -16,9 +16,11 @@ textarea {
 .jumbotron {
   text-align: center;
   background-color: transparent;
+  background-image: url("https://image.freepik.com/free-vector/watercolor-floral-background_52683-36398.jpg");
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  padding-top: 10%;
 }
 
 .description {
@@ -53,7 +55,7 @@ textarea {
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: rgb(105, 212, 101)77dd77;
   color: white;
 }
 

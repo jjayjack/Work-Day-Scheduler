@@ -74,14 +74,15 @@ fivePM.val(input.fivePM);
 //setting up color parameters
 
 var d = new Date().getHours();
-console.log(d);
 
 for (var i = 9; i < 18; i++){
     if (d === i){
-        $("#input"+i).css("background-color", "red");
-        console.log("#input"+i);
+        $("#input"+i).css("background-color", "#ff6961");
+        $("#input"+i).css("color", "white");
 }   else if (d < i) {
-         $("#input"+i).css("background-color", "green");
+         $("#input"+i).css("background-color", "#77dd77");
+         $("#input"+i).css("color", "white");
  }   else {
-         $("#input"+i).css("background-color", "gray");
+         $("#input"+i).css("background-color", "#d3d3d3");
+         $("#input"+i).css("color", "white");
 }};
